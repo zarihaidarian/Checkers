@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+	font-family: "Courier New";
+}
+body.home{
+	text-align:center;
+}
+table{
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: 8px solid black;
+	text-align: center;
+	margin: auto;
+}
+td{
+	border: 1px solid black;
+	width: 72px;
+	height: 72px;
+	font-size: 45px;
+}
+td.odd{
+	background-color: burlywood;
+}
+td.odd:hover{
+	background-color: #c2a37a ;
+}
+td.even{
+	background-color: peru;
+}
+td.even:hover{
+	background-color: #9b6631;
+}
+p.rules{
+	background-color: #dedede;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	font-size: 20px;
+	padding: 30px;
+}
+p.rules2{
+	visibility: hidden;
+	position: absolute;
+}
+h1.text1{
+	text-align: center;
+}
+
+button.button2{
+	background-color: burlywood;
+}
+button.button2:hover{
+	background-color: #c2a37a ;
+}
+button.button3{
+	background-color: peru;
+}
+button.button3:hover{
+	background-color: #9b6631;
+}
+button.button2, button.button3{
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-family: "Courier New";
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.tool{
+	position: relative;
+	display: inline-block;
+}
+.tool .tooltext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #dedede;
+	color: black;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	bottom: 105%;
+	left: 50%;
+	margin-left: -60px; 
+}
+.tool:hover .tooltext {
+	visibility: visible;
+}
+
+button.button4, button.button5{
+	width: 75px !important;
+	height: 75px !important;
+	font-size: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div.top{
+	display: inline-flex;
+}
